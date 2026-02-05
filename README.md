@@ -130,3 +130,98 @@ app/
 ├─ layout/
 ├─ drawable/
 └─ values/
+
+
+## Setup & Installation
+
+### Prerequisites
+- Android Studio installed
+- A Firebase project with **Realtime Database** enabled
+- (Recommended) Android emulator or a physical Android device
+
+## Setup & Installation
+
+### Prerequisites
+- Android Studio installed
+- A Firebase project with **Realtime Database** enabled
+- (Recommended) Android emulator or a physical Android device
+
+### Steps
+
+```text
+1) Clone the repository
+   - Open a terminal
+   - Run:
+     git clone <YOUR_REPO_URL>
+     cd <YOUR_PROJECT_FOLDER>
+
+2) Open the project in Android Studio
+   - Launch Android Studio
+   - Click: File -> Open
+   - Select: <YOUR_PROJECT_FOLDER>
+   - Wait for Gradle Sync to finish (bottom bar)
+
+3) Connect Firebase (google-services.json)
+   - Go to Firebase Console
+   - Create a Firebase Project (or select an existing one)
+   - Open: Project Settings -> General -> Your apps
+   - Click: Add app -> Android
+   - Fill:
+       - Android package name: com.your.package
+       - (Optional) App nickname
+       - (Optional) SHA-1 (for some Firebase features)
+   - Download: google-services.json
+   - Put the file here:
+       <YOUR_PROJECT_FOLDER>/app/google-services.json
+
+4) Enable Firebase Realtime Database
+   - Firebase Console -> Build -> Realtime Database
+   - Click: Create Database
+   - Choose a region
+   - Choose mode:
+       - Test mode (dev only) OR
+       - Locked mode (recommended) then set rules
+
+5) Create database nodes (tables)
+   - In Realtime Database -> Data tab
+   - Create top-level nodes:
+       - Category
+       - Food
+       - User
+       - Requests
+
+6) Seed minimal data (example)
+   - Category:
+       - { id: "1", Name: "Entrees",  Image: "<url>" }
+       - { id: "2", Name: "Plats",    Image: "<url>" }
+       - { id: "3", Name: "Desserts", Image: "<url>" }
+   - Food:
+       - { id: "101", Name: "Pizza", Description: "...", Price: 1500, CategoryId: "2" }
+       - { id: "102", Name: "Salade", Description: "...", Price: 800,  CategoryId: "1" }
+
+7) Run the app
+   - In Android Studio:
+       - Select a device (emulator or phone)
+       - Click: Run (green play button)
+
+8) Usage
+
+1) Launch the app
+2) Sign up (phone, name, password)
+3) Sign in
+4) Browse categories on Home
+5) Select a dish -> FoodDetail -> Add to cart
+6) Confirm in Cart
+7) Check your order in OrderStatus
+
+### Roadmap
+- Security:
+  - Hash passwords (BCrypt/Argon2)
+  - Stricter Firebase rules
+- Admin dashboard inside the app (instead of Firebase console)
+- Push notifications (menu published / order ready)
+- Analytics (demand by day/dish) for planning/forecasting
+
+### Licence
+MIT 
+
