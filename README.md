@@ -24,7 +24,7 @@ Android app that helps students **pre-order meals** from the school restaurant a
 ---
 
 ## Overview
-**NewrestECC** is a mobile ordering system built to improve the daily workflow of a school restaurant:
+**Newrest** is a mobile ordering system built to improve the daily workflow of a school restaurant:
 - Students can **register/login**, **browse the menu**, **select dishes**, and **place an order**.
 - The restaurant can consult orders stored in **Firebase** to better plan production.
 
