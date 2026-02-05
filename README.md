@@ -6,7 +6,7 @@ Android app that helps students **pre-order meals** from the school restaurant a
 
 
 ## Screenshots
-![Cart screen](assets/im4.png)
+<img src="assets/im4.png" alt="Home screen" width="300" />
 
 ---
 ## Table of Contents
