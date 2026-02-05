@@ -135,7 +135,7 @@ Stores orders:
 6) Confirm in Cart
 7) Check your order in OrderStatus
 
-### Roadmap
+### Roadmap (improvement)
 - Security:
   - Hash passwords (BCrypt/Argon2)
   - Stricter Firebase rules
@@ -143,8 +143,7 @@ Stores orders:
 - Push notifications (menu published / order ready)
 - Analytics (demand by day/dish) for planning/forecasting
 
-### Licence
-MIT 
+
 
 ## Setup & Installation
 
