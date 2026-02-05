@@ -6,8 +6,8 @@ Android app that helps students **pre-order meals** from the school restaurant a
 
 ## Screenshots
 <p align="center">
-<img src="assets/im1.png"  width="300" />
-<img src="assets/im4.png"  width="300" />
+<img src="assets/im1.png"  width="300" style="display:inline-block;" />
+<img src="assets/im4.png"  width="300" style="display:inline-block;" />
 </p>
 ---
 ## Table of Contents
