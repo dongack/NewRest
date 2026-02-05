@@ -125,19 +125,26 @@ Stores orders:
 
 
 ---
+###  Usage
 
-## Project Structure
-app/
-├─ src/main/java/.../
-│ ├─ Activities/
-│ ├─ Model/
-│ ├─ ViewHolder/
-│ └─ Common/ (helpers/constants if present)
-└─ src/main/res/
-├─ layout/
-├─ drawable/
-└─ values/
+1) Launch the app
+2) Sign up (phone, name, password)
+3) Sign in
+4) Browse categories on Home
+5) Select a dish -> FoodDetail -> Add to cart
+6) Confirm in Cart
+7) Check your order in OrderStatus
 
+### Roadmap
+- Security:
+  - Hash passwords (BCrypt/Argon2)
+  - Stricter Firebase rules
+- Admin dashboard inside the app (instead of Firebase console)
+- Push notifications (menu published / order ready)
+- Analytics (demand by day/dish) for planning/forecasting
+
+### Licence
+MIT 
 
 ## Setup & Installation
 
@@ -152,6 +159,7 @@ app/
 - Android Studio installed
 - A Firebase project with **Realtime Database** enabled
 - (Recommended) Android emulator or a physical Android device
+- You can Download the entire project here : https://drive.google.com/drive/folders/1qQcXl6R2uIwd1_iRkW6hf8sNEoyZ7pOA?usp=drive_link
 
 ### Steps
 
@@ -210,26 +218,4 @@ app/
    - In Android Studio:
        - Select a device (emulator or phone)
        - Click: Run (green play button)
-'''
-
-###  Usage
-
-1) Launch the app
-2) Sign up (phone, name, password)
-3) Sign in
-4) Browse categories on Home
-5) Select a dish -> FoodDetail -> Add to cart
-6) Confirm in Cart
-7) Check your order in OrderStatus
-
-### Roadmap
-- Security:
-  - Hash passwords (BCrypt/Argon2)
-  - Stricter Firebase rules
-- Admin dashboard inside the app (instead of Firebase console)
-- Push notifications (menu published / order ready)
-- Analytics (demand by day/dish) for planning/forecasting
-
-### Licence
-MIT 
 
