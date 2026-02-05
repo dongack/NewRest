@@ -1,4 +1,4 @@
-# NewrestECC — Android Food Ordering App (School Restaurant)
+# Newrest — Android Food Ordering App (School Restaurant)
 
 Android app that helps students **pre-order meals** from the school restaurant and helps the restaurant **anticipate demand** (reduce waste, avoid stockouts).
 
@@ -115,7 +115,7 @@ Stores orders:
 - `Status` (picked up / not picked up, etc.)
 - Ordered items (depending on your implementation)
 
-> ⚠️ Note: For a production-grade app, avoid plaintext passwords and lock down Firebase rules.
+
 
 ---
 
