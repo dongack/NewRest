@@ -204,7 +204,7 @@ app/
        - Select a device (emulator or phone)
        - Click: Run (green play button)
 
-8) Usage
+###  Usage
 
 1) Launch the app
 2) Sign up (phone, name, password)
