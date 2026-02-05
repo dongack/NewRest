@@ -120,6 +120,13 @@ Stores orders:
 ---
 
 ## Project Structure
-A typical structure looks like:
-
-
+app/
+├─ src/main/java/.../
+│ ├─ Activities/
+│ ├─ Model/
+│ ├─ ViewHolder/
+│ └─ Common/ (helpers/constants if present)
+└─ src/main/res/
+├─ layout/
+├─ drawable/
+└─ values/
